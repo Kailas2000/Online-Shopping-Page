@@ -1,0 +1,46 @@
+<html>
+    <head>
+      <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin=""anonymous></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <link rel="stylesheet" href="shop.css">
+    </head>
+    
+    <body>
+<!-- Header view of the online shopping page with navbar-->
+      <div class="header">
+        <div class="navbar">
+          <p>CYBER KART</p>
+          <ul>
+            <li><a href="#" style="color:black;">Home</a></li>
+            <li><a href="#" style="color:black;">Store</a></li>
+            <li><a href="#" style="color:black;">About</a></li>
+            <li><a href="#" style="color:black;">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-b">
+          <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p id="count">0</p>
+          </div>
+        </div>
+      </div>
+<!--  Below div is for the cart list-->
+      <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+          <div class="head">
+            <p>MY CART</P>
+            <div class="bin"><i class="fa-solid fa-trash-can" id="clearCart"></i></div>
+          </div>
+          <div id="cartItem">Your cart is empty</div>
+          <div class="foot">
+            <h3>Total</h3>
+            <h2 id="total">$0.00</h2>
+          </div>
+          <button id="btn1" type="buttton">BILL</button>
+        </div>
+      </div>
+      <script src="shop.js"></script>
+    </body>
+</html>

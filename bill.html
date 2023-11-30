@@ -1,0 +1,51 @@
+<html>
+    <head>     
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <link rel="stylesheet" href="shop.css">
+    </head>
+
+    <body>
+      <div class="header">
+        <div class="navbar">
+          <p>CYBER KART</p>
+          <ul>
+            <li><a href="/shop/shop.html" style="color:black;">Home</a></li>
+            <li><a href="#" style="color:black;">Store</a></li>
+            <li><a href="#" style="color:black;">About</a></li>
+            <li><a href="#" style="color:black;">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <table class="table" style="width:85%" >
+        <thead class="thead-dark">
+        <tr>
+          <th>SL No</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+        <tbody id="data">
+        </tbody>
+        <tr id="totl">
+          <th colspan="4">Total</th>
+          <td id="dd"></td>
+        </tr>  
+      </table>
+      <div style="margin-left:20%">
+      <div class="custom-control custom-radio" >
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">Cash On Delivery</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio2">Online Payment</label>
+      </div>
+      <button type="button" id="btn" class="btn btn-outline-primary" style="width:80px; margin-left:100%;">Pay</button>
+    </div>
+    <script src="bill.js"></script>
+    </body>
+    </html>
