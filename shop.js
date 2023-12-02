@@ -120,6 +120,6 @@ $("#btn1").click(function (e) {
 		});
   }
   else{
-    window.location.href="/bill.html";
+    window.location.href="./bill.html";
   }
 });
