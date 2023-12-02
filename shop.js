@@ -108,7 +108,6 @@ if (storedCart) {
   displaycart();
 }
 
-console.log('hh',cart)
 $("#btn1").click(function (e) {
   console.log('helo')
   e.preventDefault();
